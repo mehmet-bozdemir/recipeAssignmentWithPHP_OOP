@@ -158,7 +158,7 @@ $values = [$capacity->findPropertyValue(), $durability->findPropertyValue(), $fl
 
 $highestScore = array_product($values);
 
-echo("<h1>Highest Score</h1>". "<h1>$highestScore</h1>");
+echo("<h1>Highest Score</h1>". "<h1>$highestScore</h1>"); // 2230272
 
 echo("<br>*****************************************************************<br>");
 
@@ -309,4 +309,4 @@ $values2 = [$capacity2->findPropertyValue2(), $durability2->findPropertyValue2()
 
 $highestScoreWith500Calories = array_product($values2);
 
-echo("<h1>Highest Score with 500 calories</h1>". "<h1>$highestScoreWith500Calories</h1>");
+echo("<h1>Highest Score with 500 calories</h1>". "<h1>$highestScoreWith500Calories</h1>"); // 168000
